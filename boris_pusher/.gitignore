@@ -1,0 +1,11 @@
+# explanation notes: keep local
+*.txt
+!CMakeLists.txt
+
+# generated / local files
+build/
+Testing/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+data/**/*.csv
